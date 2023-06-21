@@ -10,6 +10,8 @@ interface Stats {
   started: boolean;
   rounds: number;
   round:number;
+  [key: string]: number | boolean;
+
 }
 
 export default function Home() {
@@ -23,16 +25,7 @@ export default function Home() {
     round:0
   });
 
-  const [visibility, setVisibility] = useState(false);
-  const [question, setQuestion] = useState(data.questions[0]);
-
-  const randomize = () => {
-    const randomIndex = Math.floor(Math.random() * data.questions.length);
-    const randomQuestion = data.questions[randomIndex];
-    setQuestion(randomQuestion);
-  };
-
-  const check = (player: string, answer: string) => {
+  const check = (player: keyof Pick<Stats, 'player1' | 'player2'>, answer: string) => {
     if (answer === question.correct.answer) {
       setStats((prevStats) => ({
         ...prevStats,
@@ -42,6 +35,16 @@ export default function Home() {
       setVisibility(true);
     }
   };
+  const [visibility, setVisibility] = useState(false);
+  const [question, setQuestion] = useState(data.questions[0]);
+
+  const randomize = () => {
+    const randomIndex = Math.floor(Math.random() * data.questions.length);
+    const randomQuestion = data.questions[randomIndex];
+    setQuestion(randomQuestion);
+  };
+
+
 
   const next = (player: string) => {
     setStats((prevStats) => ({
@@ -112,7 +115,7 @@ export default function Home() {
           </div>
 
           <div
-            className={`absolute bottom-0 left-0 right-0 bg-black dark:bg-white h-full bg-opacity-20 p-6 backdrop-blur-sm ${
+            className={`absolute bottom-0 left-0 right-0 bg-black dark:bg-white/5 h-full bg-opacity-10 p-6 backdrop-blur-sm ${
               visibility ? "block" : "hidden"
             } `}
           >
@@ -160,8 +163,8 @@ export default function Home() {
               setStats((prevStats) => ({
                 ...prevStats,
                 started: true,
-                readyplayer1: true,
-                readyplayer2: true,
+                readyplayer1: false,
+                readyplayer2: false,
                 rounds: 2,
                 player1: 0,
                 player2: 0,
