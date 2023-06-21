@@ -1,0 +1,164 @@
+{
+  "questions": [
+    {
+      "question": "Wer malte das Gemälde 'Die Nachtwache'?",
+      "answers": ["Leonardo da Vinci", "Vincent van Gogh", "Rembrandt", "Pablo Picasso"],
+      "correct": {
+        "answer": "Rembrandt",
+        "explanation": "Das Gemälde 'Die Nachtwache' wurde von Rembrandt gemalt und gilt als eines seiner bekanntesten Werke."
+      }
+    },
+    {
+      "question": "Wie heißt die Hauptstadt von Australien?",
+      "answers": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "correct": {
+        "answer": "Canberra",
+        "explanation": "Die Hauptstadt von Australien ist Canberra, nicht Sydney oder Melbourne."
+      }
+    },
+    {
+      "question": "Welches Element hat die chemische Abkürzung 'Ag'?",
+      "answers": ["Silber", "Gold", "Aluminium", "Kupfer"],
+      "correct": {
+        "answer": "Silber",
+        "explanation": "Die chemische Abkürzung 'Ag' steht für das Element Silber."
+      }
+    },
+    {
+      "question": "Wer schrieb das Buch '1984'?",
+      "answers": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Margaret Atwood"],
+      "correct": {
+        "answer": "George Orwell",
+        "explanation": "'1984' wurde von George Orwell geschrieben und ist ein dystopischer Klassiker."
+      }
+    },
+    {
+      "question": "Welches Land hat die größte Bevölkerung?",
+      "answers": ["China", "Indien", "Vereinigte Staaten", "Russland"],
+      "correct": {
+        "answer": "China",
+        "explanation": "China hat die größte Bevölkerung der Welt mit mehr als 1,4 Milliarden Menschen."
+      }
+    },
+    {
+      "question": "Wie viele Planeten hat unser Sonnensystem?",
+      "answers": ["7", "8", "9", "10"],
+      "correct": {
+        "answer": "8",
+        "explanation": "Unser Sonnensystem hat 8 Planeten, darunter die Erde, Mars, Jupiter und weitere."
+      }
+    },
+    {
+      "question": "Wer schrieb das Buch 'Der Prozess'?",
+      "answers": ["Franz Kafka", "Friedrich Nietzsche", "Hermann Hesse", "Thomas Mann"],
+      "correct": {
+        "answer": "Franz Kafka",
+        "explanation": "'Der Prozess' wurde von Franz Kafka geschrieben und ist ein bedeutendes Werk der modernen Literatur."
+      }
+    },
+    {
+      "question": "Was ist die chemische Formel für Wasser?",
+      "answers": ["H2O2", "CO2", "H2O", "CH4"],
+      "correct": {
+        "answer": "H2O",
+        "explanation": "Die chemische Formel für Wasser lautet H2O, wobei 2 Wasserstoffatome mit einem Sauerstoffatom verbunden sind."
+      }
+    },
+    {
+      "question": "Welche Farbe ergibt sich durch die Mischung von Rot und Blau?",
+      "answers": ["Violett", "Orange", "Grün", "Gelb"],
+      "correct": {
+        "answer": "Violett",
+        "explanation": "Die Mischung von Rot und Blau ergibt die Farbe Violett."
+      }
+    },
+    {
+      "question": "Wie viele Zähne hat ein erwachsener Mensch normalerweise?",
+      "answers": ["24", "28", "30", "32"],
+      "correct": {
+        "answer": "32",
+        "explanation": "Ein erwachsener Mensch hat normalerweise 32 Zähne, einschließlich der Weisheitszähne."
+      }
+    },
+    {
+      "question": "Welches ist das kleinste Land der Welt?",
+      "answers": ["Vatikanstadt", "Monaco", "Nauru", "Malta"],
+      "correct": {
+        "answer": "Vatikanstadt",
+        "explanation": "Die Vatikanstadt ist das kleinste Land der Welt sowohl in Bezug auf die Fläche als auch auf die Bevölkerungszahl."
+      }
+    },
+    {
+      "question": "Welches war das erste Land, das eine Verfassung hatte?",
+      "answers": ["Vereinigte Staaten", "Großbritannien", "Frankreich", "Deutschland"],
+      "correct": {
+        "answer": "Vereinigte Staaten",
+        "explanation": "Die Vereinigten Staaten waren das erste Land, das eine moderne geschriebene Verfassung hatte, die am 17. September 1787 verabschiedet wurde."
+      }
+    },
+    {
+      "question": "Welcher Planet ist als 'der rote Planet' bekannt?",
+      "answers": ["Mars", "Venus", "Jupiter", "Merkur"],
+      "correct": {
+        "answer": "Mars",
+        "explanation": "Der Planet Mars ist als 'der rote Planet' bekannt aufgrund seiner rötlichen Oberfläche."
+      }
+    },
+    {
+      "question": "Wer war der erste Mensch im Weltall?",
+      "answers": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "Alan Shepard"],
+      "correct": {
+        "answer": "Yuri Gagarin",
+        "explanation": "Yuri Gagarin war der erste Mensch im Weltall. Er startete am 12. April 1961 mit der sowjetischen Raumkapsel Vostok 1."
+      }
+    },
+    {
+      "question": "Wer schrieb das Buch 'Krieg und Frieden'?",
+      "answers": ["Fyodor Dostoyevsky", "Leo Tolstoy", "Anton Chekhov", "Boris Pasternak"],
+      "correct": {
+        "answer": "Leo Tolstoy",
+        "explanation": "'Krieg und Frieden' wurde von Leo Tolstoy geschrieben und zählt zu den längsten und bedeutendsten Werken der Weltliteratur."
+      }
+    },
+    {
+      "question": "Wer malte das Gemälde 'Die Schrei'?",
+      "answers": ["Pablo Picasso", "Edvard Munch", "Salvador Dali", "Vincent van Gogh"],
+      "correct": {
+        "answer": "Edvard Munch",
+        "explanation": "'Die Schrei' wurde von Edvard Munch gemalt und ist eines der bekanntesten Werke der expressionistischen Malerei."
+      }
+    },
+    {
+      "question": "Welcher Planet ist der größte in unserem Sonnensystem?",
+      "answers": ["Jupiter", "Mars", "Venus", "Saturn"],
+      "correct": {
+        "answer": "Jupiter",
+        "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem, sogar größer als alle anderen Planeten zusammen."
+      }
+    },
+    {
+      "question": "Was ist die Hauptstadt von Kanada?",
+      "answers": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+      "correct": {
+        "answer": "Ottawa",
+        "explanation": "Die Hauptstadt von Kanada ist Ottawa, nicht Toronto oder Vancouver."
+      }
+    },
+    {
+      "question": "Wer schrieb das Buch 'Stolz und Vorurteil'?",
+      "answers": ["Jane Austen", "Charlotte Brontë", "Emily Brontë", "Louisa May Alcott"],
+      "correct": {
+        "answer": "Jane Austen",
+        "explanation": "'Stolz und Vorurteil' wurde von Jane Austen geschrieben und ist eines ihrer bekanntesten Werke."
+      }
+    },
+    {
+      "question": "Was ist der größte Kontinent der Erde?",
+      "answers": ["Afrika", "Europa", "Asien", "Nordamerika"],
+      "correct": {
+        "answer": "Asien",
+        "explanation": "Asien ist der größte Kontinent der Erde sowohl in Bezug auf die Fläche als auch auf die Bevölkerungszahl."
+      }
+    }
+  ]
+}
